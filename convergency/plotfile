@@ -1,0 +1,3 @@
+set term pdfcairo
+set out "plot.pdf"
+plot "out11.dat", "out101.dat", "out10001.dat", "out1000000001.dat"
