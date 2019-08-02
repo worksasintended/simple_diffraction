@@ -7,7 +7,7 @@ option( USE_LIBRARY_ACCESS_CHECK off)
 
 #subdirectories to use
 
-SET( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=native" )
+SET( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=native -fopenmp" )
 
 SET( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall -pedantic" )
 if ( ${USE_ADDRESS_SANITIZER} )

@@ -43,7 +43,7 @@ void write_results(vector<float> results, char** argv){
 vector<float> calculate(float lambda, float channel_width, int steps_channel, int steps_sensor, float d_emitter, float d_sensor, float x_max ){
   vector<float> results(steps_sensor);
   //every position on sensor
-  //TODO: parallel
+  #pragma omp parallel for 
   for (int i = 0; i < steps_sensor; ++i){
       float x = (float)i/(steps_sensor-1) * x_max;
       float efield_real = 0;
