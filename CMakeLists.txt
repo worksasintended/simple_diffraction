@@ -1,5 +1,5 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
-PROJECT(diffraction)
+PROJECT(simple_diffraction)
 
 SET( CMAKE_BUILD_TYPE DEBUG )
 option( USE_ADDRESS_SANITIZER on)
@@ -26,7 +26,7 @@ SET( CMAKE_CXX_STANDARD 14 )
 
 SET( CMAKE_EXPORT_COMPILE_COMMANDS on )
 
-ADD_EXECUTABLE(bin_diffraction main.cpp)
+ADD_EXECUTABLE(simple_diffraction main.cpp)
 #target_sources(bindiffraction PRIVATE ${BACKWARD_ENABLE})
 #add_backward(bin_diffraction)
 
