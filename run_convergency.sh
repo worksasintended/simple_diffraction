@@ -1,0 +1,9 @@
+./simple_diffraction 300e-6 1e-3 11 48 85e-5 665e-5 15e-3 convergency/out11.dat
+./simple_diffraction 300e-6 1e-3 101 48 85e-5 665e-5 15e-3 convergency/out101.dat
+./simple_diffraction 300e-6 1e-3 1001 48 85e-5 665e-5 15e-3 convergency/out1001.dat
+./simple_diffraction 300e-6 1e-3 10001 48 85e-5 665e-5 15e-3 convergency/out10001.dat
+./simple_diffraction 300e-6 1e-3 100001 48 85e-5 665e-5 15e-3 convergency/out100001.dat
+./simple_diffraction 300e-6 1e-3 1000001 48 85e-5 665e-5 15e-3 convergency/out1000001.dat
+./simple_diffraction 300e-6 1e-3 10000001 48 85e-5 665e-5 15e-3 convergency/out10000001.dat
+./simple_diffraction 300e-6 1e-3 100000001 48 85e-5 665e-5 15e-3 convergency/out100000001.dat
+./simple_diffraction 300e-6 1e-3 1000000001 48 85e-5 665e-5 15e-3 convergency/out1000000001.dat
