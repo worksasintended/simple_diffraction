@@ -8,4 +8,4 @@ i(x)= x/sqrt(x**2+l**2)
 g(x)=(pi*d/la)*i(x)
 f(x)=abs(sin(g(x))/g(x))
 set xrange[0:.03]
-plot f(x), "out.dat" w lp
+plot f(x), "out.dat" w l
