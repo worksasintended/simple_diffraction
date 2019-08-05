@@ -14,7 +14,12 @@ set key height .3
 set out "plot.pdf"
 set ylabel "relative intensity"
 set xlabel "position in mm"
+set yrange [0:1]
 plot  \
     "out.00465.dat" u ($1*1000):2 w l lc 1 t "d_s=4.65mm", "out.00465.dat" u (-$1*1000):2 w l lc 1 t "", \
     "out.00645.dat" u ($1*1000):2 w l lc 2 t "d_s=6.45mm", "out.00645.dat" u (-$1*1000):2 w l lc 2 t "", \
     "out.00845.dat" u ($1*1000):2 w l lc 3 t "d_s=8.45mm", "out.00845.dat" u (-$1*1000):2 w l lc 3 t ""
+
+set out "small_screen.pdf"
+set xrange[-1.1:1.1]
+replot
